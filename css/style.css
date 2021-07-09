@@ -1,0 +1,1006 @@
+@charset "UTF-8";
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+/* box-header */
+.box-header{
+  position: relative;
+  z-index: 1;
+}
+.box-header .header-logo{
+  position: absolute;
+  margin-bottom: 0;
+}
+.box-header .header-logo .link{
+  text-decoration: none;
+}
+.box-header .header-logo .link .image{
+  padding-left: 18px;
+  width: 105px;
+}
+.box-header .header-menu{
+  position: absolute;
+  right: 0;
+  left: 105px;
+  text-align: end;
+}
+.box-header .header-menu .menu{
+  display: block;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin: 34px 0;
+  background-color: #e2ede8;
+  text-align: end;
+}
+.box-header .header-menu .menu .list-menu{
+  display: inline-block;
+  transition: all 0.5s ease;
+  padding: 0 20px;
+}
+.box-header .header-menu .menu .list-menu:hover,
+.box-header .header-menu .menu .active{
+  background-color: #c7d9d5;
+  color: #51605e;
+  box-shadow: 0 -5px 5px -5px #51605e;
+}
+.box-header .header-menu .menu .list-menu .link{
+  text-decoration: none;
+  color: #494f4e;
+  font-size: 17px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  padding: 5px 12px;
+  margin: 0 10px;
+  word-spacing: 2px;
+}
+/* section-content */
+.section-content{
+  background-image: url(../images/background-banner.png);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: block;
+  padding-top: 76px;
+}
+.section-content .content-img{
+  display: inline-block;
+}
+.section-content .content-img .image{
+  padding-left: 59px;
+  padding-bottom: 163px;
+  width: 587px;
+  padding-top: 14px;
+}
+.section-content .content{
+  position: absolute;
+  display: inline-block;
+  text-align: end;
+  padding-top: 211px;
+}
+.section-content .content .title{
+  font-size: 80.21px;
+  text-align: left;
+  font-weight: 700;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  padding-left: 23px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.section-content .content .text{
+  font-size: 18px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0 20px;
+  line-height: 1.1;
+  color: #6c9894;
+}
+.section-content .content .content-button{
+  text-align: center;
+  padding-top: 23px;
+}
+.section-content .content .content-button .button-join{
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c9894;
+  border: 1px solid #6c9894;
+  font-size: 18px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  padding: 0px 21px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  margin-left: -2px;
+  letter-spacing: 2px;
+} 
+.section-content .content .content-button .button-join:hover{
+  background-color: #fff;
+  border: 1px solid #6c9894 ;
+  color: #51605e;
+}
+/* section-choose */
+.section-choose{
+  background-image: url("../images/background-category.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+  padding: 90px 0;
+}
+.section-choose .choose-title .title{
+  font-size: 61px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-bottom: 17px;
+}
+.section-choose .choose-title .text{
+  font-size: 26.72px;
+  margin-bottom: 0;
+  padding: 0 267px;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.1;
+  padding-top: 5px;
+}
+.section-choose .choose-content{
+  text-align: center;
+} 
+.section-choose .choose-content .choose {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+.section-choose .choose-content .block-choose .choose-img .image{
+  width: 295px;
+}
+.section-choose .choose-content .block-choose .choose-content-text{
+  margin-top: -10px;
+}
+.section-choose .choose-content .block-choose .choose-content-text .title{
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #fff;
+  padding-bottom: 10px;
+  transition: all 0.5s ease;
+  margin-top: 27px;
+}
+.section-choose .choose-content .block-choose .choose-content-text .title:hover{
+  color: #51605e;
+}
+.section-choose .choose-content .block-choose .choose-content-text .text{
+  font-size: 18px;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #fff;
+  padding: 0 40px;
+  padding-bottom: 8px;
+}
+/* section-ourstats */
+.section-ourstats{
+  background-image: url(../images/background-our.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: block;
+  padding: 70px 0;
+}
+.section-ourstats .ourstats-title .title{
+  font-size: 60px;
+  font-weight: 700;
+  color: #6c9894;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  margin-left: -25px;
+}
+.section-ourstats .ourstats-title .text{
+  font-size: 27px;
+  margin-bottom: 0;
+  padding: 0px 265px;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #6c9894;
+  line-height: 1.15;
+}
+.section-ourstats .ourstats-content .ourstats {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+.section-ourstats .ourstats-content .ourstats .block-ourstats{
+  margin-top: 50px;
+  padding-bottom: 56px;
+}
+.section-ourstats .ourstats-content .ourstats-item{
+  border: 5px solid #6c9894;
+  border-radius: 50%;
+  padding: 45px 6px;
+  margin: 40px;
+}
+.section-ourstats .ourstats-content .ourstats-item .title{
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #6c9894;
+}
+.section-ourstats .ourstats-content .ourstats-item .text{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #6c9894;
+}
+/* section-instruction */
+.section-instruction{
+  display: flex;
+  padding-left: 65px;
+  background-color: #6c9894;
+}
+.section-instruction .instruction-title{
+  width: 60%;
+}
+.section-instruction .instruction-title .title{
+  font-size: 55px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 0;
+  padding-top: 203px;
+  letter-spacing: 2px;
+}
+.section-instruction .instruction-title .text{
+  font-size: 27px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 0;
+  padding-top: 8px;
+  line-height: 1.17;
+}
+.section-instruction .instruction-title .instruction-button{
+  padding-top: 45px;
+  transition: all 0.5s ease;
+}
+.section-instruction .instruction-title .instruction-button .button-more{
+  color: #6c9894;
+  background-color: #fff;
+  border: 2px solid #fff;
+  font-size: 18px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  padding: 10px 80px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.section-instruction .instruction-title .instruction-button .button-more:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c9894;
+  border: 2px solid #fff;
+}
+/* section-experience*/
+.section-experience{
+  background-image: url(../images/background-experience.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  padding: 15px 0;
+}
+.section-experience .experience-title{
+  padding: 72px;
+}
+.section-experience .experience-content{
+  width: 61%;
+  padding-top: 203px;
+  padding-left: 58px;
+}
+.section-experience .experience-content .title{
+  font-size: 60px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  color: #6c9894;
+  width: 50%;
+  margin-bottom: 0;
+}
+.section-experience .experience-content .text{
+  font-size: 27.72px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #6c9894;
+  width: 100%;
+  margin-bottom: 0;
+  padding-top: 20px;
+  line-height: 1.15;
+}
+.section-experience .experience-content .experience-button{
+  padding-top: 50px;
+  padding-left: 5px;
+}
+.section-experience .experience-content .experience-button .button-more{
+  font-size: 20px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  padding: 11px 75px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  color: #fff;
+  background-color: #6c9894;
+  border: 2px solid #fff;
+}
+.section-experience .experience-content .experience-button .button-more:hover{
+  text-decoration: none;
+  color: #6c9894;
+  background-color: #fff;
+  border: 2px solid #6c9894;
+}
+/* section-pricing */
+.section-pricing{
+  background-image: url(../images/background-pricing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 79px 0;
+}
+.section-pricing .pricing-title .title{
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Baloo Bhai 2', cursive;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+
+.section-pricing .pricing-title .text{
+  font-size: 28px;
+  margin-bottom: 0;
+  padding: 0px 251px;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 15px;
+  line-height: 1.15;
+}
+.section-pricing .pricing-content .pricing{
+  margin-left: 0;
+  margin-right: 0;
+}
+.section-pricing .pricing-content .block-pricing{
+  text-align: center;
+  padding: 0px 40px;
+}
+.section-pricing .pricing-content .pricing-item{
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+.section-pricing .pricing-content .pricing-item .title{
+  font-size: 30px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.section-pricing .pricing-content .pricing-item .price{
+  font-size: 30px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.section-pricing .pricing-content .pricing-item .text{
+  font-size: 20px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.section-pricing .pricing-content .pricing-item .pricing-button .button-more{
+  color: #fff;
+  background-color: #6c9894;
+  border: 2px solid #6c9894;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.section-pricing .pricing-content .pricing-item .pricing-button .button-more:hover{
+  color:#6c9894 ;
+  background-color: #fff;
+  text-decoration: none;
+  border: 2px solid #6c9894;
+}
+/* section-trainer */
+.section-trainer{
+  background-image: url(../images/background-tranner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 130px 0;
+  text-align: center;
+}
+.section-trainer .trainer-title{
+  margin-top: -65px;
+}
+.section-trainer .trainer-title .image{
+  width: 333px;
+}
+.section-trainer .trainer-content .text{
+  font-size: 52px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  padding: 0px 87px;
+  color: #6c9894;
+  line-height: 1.15;
+}
+.section-trainer .trainer-content .title{
+  font-size: 46px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-top: 1px;
+}
+/* section-search */
+.section-search{
+  padding: 100px 0;
+  text-align: center;
+  background-color: #6c9894;
+}
+.section-search .search-title .title{
+  font-size: 60px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+} 
+.section-search .search-title .text{
+  font-size: 27px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #fff;
+  padding: 0 267px;
+  line-height: 1.15;
+}
+.section-search .search-content {
+  display: block;
+  padding: 0px 278px;
+  padding-bottom: 120px;
+}
+.section-search .search-content .content-search .search-input{
+  padding: 5px;
+  font-size: 24px;
+  border: 1px solid #fff;
+  float: left;
+  width: 500px;
+  background: #fff;
+  color: #6c9894;
+  border-radius: 30px;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.section-search .search-content .content-search .search-submit{
+  float: left;
+  width: 156px;
+  padding: 9px 19px;
+  background: #f4f9f4;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  font-size: 20px;
+  border: 1px solid #f4f9f4;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: -73px;
+  margin-top: -2px;
+  transition: all 0.5s ease;
+}
+.section-search .search-content .content-search .search-submit:hover{
+  background: #6c9894;
+  border: 1px solid #f4f9f4;
+  color: #fff;
+}
+/* box-footer */
+.box-footer{
+  background-color: #f4f9f4;
+  padding: 119px 0;
+}
+.box-footer .footer{
+  margin-left: 0;
+  margin-right: 0;
+}
+.box-footer .footer .footer-item .footer-title{
+  padding-left: 25px;
+}
+.box-footer .footer .footer-item .footer-title .title{
+  font-size: 27px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  color: #6c9894;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+.box-footer .footer .footer-item .footer-title .text{
+  font-size: 23px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 400;
+  color: #6c9894;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 1.15;
+}
+.box-footer .footer .block-footer .footer-item .item{
+  margin-left: 0;
+  margin-right: 0;
+}
+.block-footer .footer-item .item .block-item .item-footer .title{
+  font-size: 26px;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-weight: 700;
+  color: #6c9894;
+  margin-bottom: 0;
+  padding-bottom: 17px;
+}
+.footer-item .item .block-item .item-footer .list{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.footer-item .item .block-item .item-footer .list .list-menu{
+  list-style: none;
+  padding-bottom: 10px;
+}
+.footer-item .item .block-item .item-footer .list .list-menu .link{
+  font-size: 23px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: #6c9894;
+  line-height: 1.15;
+}
+.footer-item .item .block-item .item-footer .list .list-menu .link:hover{
+  text-decoration: none;
+  color: #51605e;
+}
+.footer-item .item .block-item .item-footer .list .list-menu .link .image{
+  padding-right: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .section-content .content-img {
+    padding-left: 0px;
+  }
+  .section-content .content-img .image {
+    padding-left: 5px;
+    padding-bottom: 110px;
+  }
+  .section-content .content .title {
+    font-size: 60px;
+  }
+  .section-content .content .text {
+    font-size: 20px;
+    padding: 0 30px;
+  }
+  .section-choose .choose-title .text {
+    padding: 0 200px;
+  }
+  .section-ourstats .ourstats-title .text {
+    padding: 0 160px;
+  }
+  .section-ourstats .ourstats-content .ourstats-item {
+    padding: 40px 45px;
+    margin: 19px;
+  }
+  .section-instruction {
+    padding-left: 25px;
+  }
+  .section-instruction .instruction-title {
+    width: 70%;
+  }
+  .section-instruction .instruction-title .title {
+    font-size: 75px;
+    padding-top: 75px;
+    width: 100%;
+  }
+  .section-instruction .instruction-title .text {
+    width: 100%;
+  }
+  .section-experience {
+    padding: 25px 0;
+  }
+  .section-experience .experience-title {
+    padding: 25px;
+  }
+  .section-experience .experience-content {
+    width: 65%;
+    padding-top: 85px;
+    padding-left: 50px;
+  }
+  .section-pricing .pricing-title .text {
+    padding: 0 100px;
+  }
+  .section-pricing .pricing-content .block-pricing {
+    padding: 0 20px;
+  }
+  .section-search .search-title .text {
+    padding: 0 100px;
+  }
+  .section-search .search-content {
+    padding: 0 190px;
+    padding-bottom: 20px;
+  }
+  .box-footer {
+    padding: 50px 0;
+  }
+  .box-footer .footer .footer-item .footer-title {
+    padding-left: 40px;
+  }
+  .footer .footer-item .footer-title .text {
+    font-size: 23px;
+  }
+  .block-item .item .block-item .item-footer .list .list-menu .link {
+    font-size: 23px;
+  }
+  .footer-item .item .block-item .item-footer .list .list-menu {
+    padding-bottom: 5px;
+  }
+  .footer-item .item .block-item .item-footer .list .list-menu .link .image {
+    padding-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .box-header .header-logo {
+    display: none;
+  }
+  .section-content{
+    margin-top: 35px;
+    padding-bottom: 50px;
+  }
+  .section-content .content-img {
+    padding-left: 40px;
+  }
+  .section-content .content-img .image {
+    padding-left: 0;
+    padding-bottom: 110px;
+    padding: 0 10px;
+  }
+  .section-content .content {
+    position: static;
+    display: inline-block;
+    text-align: end;
+    padding-top: 20px;
+  }  
+  .section-choose .choose-title .text {
+    padding: 0 100px;
+  }
+  .section-ourstats .ourstats-title .text {
+    padding: 0 100px;
+  }
+  .section-ourstats .ourstats-content .ourstats-item {
+    padding: 55px 45px;
+  }
+  .section-instruction {
+    padding-left: 30px;
+  }
+  .section-instruction .instruction-title {
+    width: 100%;
+    text-align: center;
+  }
+  .section-instruction .instruction-title .title {
+    font-size: 40px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .section-instruction .instruction-title .text {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .section-instruction .instruction-title .instruction-button {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .section-experience .experience-title {
+    padding: 10px;
+  }
+  .section-experience .experience-content {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+  }
+  .section-experience .experience-content .title {
+    font-size: 40px;
+    width: 100%;
+  }
+  .section-pricing {
+    padding: 50px 0;
+  }
+  .section-pricing .pricing-title .text {
+    padding: 0 100px;
+    padding-bottom: 20px;
+  }
+  .section-pricing .pricing-content .block-pricing {
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 40px;
+  }
+  .section-search {
+    padding: 50px 0;
+  }
+  .section-trainer {
+    padding: 50px 0;
+  }
+  .section-trainer .trainer-content .text {
+    padding: 0 20px;
+    margin-bottom: 0;
+  }
+  .section-search .search-title .text {
+    padding: 0 20px;
+  }
+  .section-search .search-content {
+    display: block;
+    padding: 0 80px;
+    padding-bottom: 50px;
+  }
+  .box-footer {
+    padding: 60px 0;
+  }
+  .box-footer .footer .footer-item .footer-title {
+    padding-left: 20px;
+  }
+  .box-footer .footer .footer-item .footer-title .text {
+    font-size: 20px;
+  }
+  .box-footer .footer .footer-item .footer-title .title {
+    padding-bottom: 15px;
+  }
+  .footer-item .item .block-item .item-footer .list .list-menu .link {
+    font-size: 20px;
+  }
+  .footer-item .item .block-item .item-footer .list .list-menu {
+    padding-bottom: 5px;
+  }
+  .block-footer .footer-item .item .block-item .item-footer .title {
+    padding-bottom: 15px;
+  }
+  .footer-item .item .block-item .item-footer .list .list-menu .link .image {
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .box-header .header-logo {
+    display: none;
+  }
+  .section-content{
+    margin-top: 35px;
+    padding-bottom: 50px;
+  }
+  .section-content .content-img {
+    padding-left: 0;
+  }
+  .section-content .content-img .image {
+    padding-left: 0;
+    padding-bottom: 110px;
+    padding: 0 10px;
+  }
+  .section-content .content {
+    position: static;
+    display: inline-block;
+    text-align: end;
+    padding-top: 20px;
+  }
+  .section-content .content .title {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+  .section-content .content .text {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .section-choose .choose-title .title {
+    font-size: 40px;
+  }
+  .section-choose .choose-title .text {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .section-ourstats .ourstats-title .title {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+  .section-ourstats .ourstats-title .text {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .section-instruction {
+    display: block;
+    padding-left: 0;
+  }
+  .section-instruction .instruction-title {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .section-instruction .instruction-title .title {
+    font-size: 40px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .section-instruction .instruction-title .text {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .section-instruction .instruction-title .instruction-button {
+    padding-top: 25px;
+    text-align: center;
+  }
+  .section-experience {
+    display: block;
+    padding: 25px 0;
+  }
+  .section-experience .experience-title {
+    padding: 20px;
+  }
+  .section-experience .experience-content {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .section-experience .experience-content .title {
+    font-size: 40px;
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .section-experience .experience-content .text {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+  .section-experience .experience-content .experience-button {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .section-pricing {
+    padding: 50px 0;
+  }
+  .section-pricing .pricing-title .title {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .section-pricing .pricing-title .text {
+    font-size: 18px;
+    padding: 0 10px;
+    padding-bottom: 25px;
+  }
+  .section-pricing .pricing-content .block-pricing {
+    padding: 20px;
+  }
+  .section-pricing .pricing-content .pricing-item .title {
+    font-size: 30px;
+  }
+  .section-pricing .pricing-content .pricing-item .price {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .section-pricing .pricing-content .pricing-item .text {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .section-pricing .pricing-content .pricing-item .pricing-button .button-more {
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+  .section-trainer {
+    padding: 50px 0;
+  }
+  .section-trainer .trainer-content .text {
+    font-size: 35px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .section-trainer .trainer-content .title {
+    font-size: 30px;
+  }
+  .section-search {
+    padding: 50px 0;
+  }
+  .section-search .search-title .title {
+    font-size: 40px;
+    padding-bottom: 25px;
+  }
+  .section-search .search-title .text {
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .section-search .search-content {
+    display: block;
+    padding: 0 10px;
+    padding-bottom: 50px;
+  }
+  .section-search .search-content .content-search .search-submit {
+    width: 145px;
+    font-size: 17px;
+    margin-left: -50px;
+  }
+  .box-footer {
+    background-color: #f4f9f4;
+    padding: 50px 0;
+  }
+  .box-footer .footer .footer-item .footer-title {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px){
+  .section-ourstats .ourstats-content .ourstats-item {
+    padding: 90px 30px;
+    margin: 15px;
+  }
+  .section-search .search-content .content-search .search-input {
+    padding: 10px;
+    font-size: 17px;
+    width: 310px; 
+  }
+}
+
+@media only screen  and (min-width: 322px) and (max-width: 376px){
+  .section-ourstats .ourstats-content .ourstats-item {
+    padding: 55px 25px;
+    margin: 20px;
+  }
+  .section-search .search-content .content-search .search-input {
+    padding: 10px;
+    font-size: 17px;
+    width: 260px;
+  }
+}
+
+
+@media only screen and (max-width: 321px){
+  .section-ourstats .ourstats-content .ourstats-item {
+    padding: 35px 15px;
+    margin: 15px;
+  }
+  .section-search .search-content .content-search .search-input {
+    padding: 10px;
+    font-size: 17px;
+    width: 200px; 
+  }
+}
